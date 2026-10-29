@@ -1,3 +1,6 @@
+use micrograd_rs::engine::Value;
+
 fn main() {
-    println!("Hello, world!");
+    let x = Value { data: 3.0 };
+    println!("{x:#?}");
 }
